@@ -8,4 +8,4 @@ github_username:  fleven
 
 # Build settings
 markdown: kramdown
-theme: midnight
+theme: jekyll-theme-midnight
