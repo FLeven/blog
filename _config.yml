@@ -1,0 +1,11 @@
+# basic options
+title: TEST
+author: TESTER
+email: fl@test.de
+description: blog
+twitter_username: whatstwitter
+github_username:  fleven
+
+# Build settings
+markdown: kramdown
+theme: midnight
