@@ -36,4 +36,15 @@ all other is simple markdown
 put finished posts in _posts/
 name them YYYY-MM-DD-you-blog-title.md
 
+if you want to import a picture or whatever, put it into the assets/ folder
+the do (for pictures as example) 
+![](/assets/YOURFILE.jpg)
+
+other markdown stuff is in syntax.txt included
+
+theme comes from https://github.com/tocttou/hacker-blog
+-> the documantation is good, take a look xD
+
+thats all!
+
 have fun :)
