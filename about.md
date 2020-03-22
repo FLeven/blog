@@ -1,15 +1,8 @@
 ---
 layout: page
-title: about
+title: About
 ---
 
-test about
+# about
 
-test:
-
-- 123
-- 456
-
-## more
-
-tester
+This is a cool blog
