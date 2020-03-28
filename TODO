@@ -1,0 +1,50 @@
+To change
+
+_includes/header.html (line 5 | XYZ@CHANGEIT~$)
+_includes/links.html (top shortcuts)
+config.yml (most configurations are there, most are for the RSS feed)
+404.md (404 page)
+about.md (about te blog / you etc)
+contact.md
+lisence.md
+README.md
+sitemap.xml (pages for indexing by search engines. default are / and /archive)
+    Please change BASEURL three times to you root domain (example.com)
+
+NOT to change xD
+_sass/
+css/
+archive.md (auto generated, archive overview)
+atom.xml (auto generated, RSS feed)
+index.html
+robots.txt (pages not for indexing, currently /contact and /atom.xml)
+syntax.txt (smal cheat sheet for markdown)
+
+
+Create a post
+/////////////
+always include this in first line
+////---===
+---
+layout: post
+title: YOUCOOLTITLE
+Pagepublished: true
+---
+///---===
+
+all other is simple markdown
+put finished posts in _posts/
+name them YYYY-MM-DD-you-blog-title.md
+
+if you want to import a picture or whatever, put it into the assets/ folder
+the do (for pictures as example) 
+![](/assets/YOURFILE.jpg)
+
+other markdown stuff is in syntax.txt included
+
+theme comes from https://github.com/tocttou/hacker-blog
+-> the documantation is good, take a look xD
+
+thats all!
+
+have fun :)
