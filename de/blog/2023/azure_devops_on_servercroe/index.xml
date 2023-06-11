@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure DevOps 2022 auf Server Core installieren on FL blog</title>
+    <link>http://localhost:1313/de/blog/2023/azure_devops_on_servercroe/index.html</link>
+    <description>Recent content in Azure DevOps 2022 auf Server Core installieren on FL blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language><atom:link href="http://localhost:1313/de/blog/2023/azure_devops_on_servercroe/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

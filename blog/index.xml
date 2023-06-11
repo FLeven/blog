@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on FL Blog</title>
+    <link>http://localhost:1313/blog/index.html</link>
+    <description>Recent content in Blog on FL Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Posts - 2023</title>
+      <link>http://localhost:1313/blog/2023/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2023/index.html</guid>
+      <description>Install Azure DevOps on Server CoreSince Azure DevOps Server 2022 finally supports a deployment on Server Core, I can replace another GUI Server in my LAB. In this write up, I will show you all the steps to get it up and running in your environment. To have a quick peek at the service, you will get away with a 2 CPU, 4 GB memory, 15 GB hard drive VM (not using the Code Search feature).</description>
+    </item>
+    <item>
+      <title>Blog Posts - 2022</title>
+      <link>http://localhost:1313/blog/2022/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2022/index.html</guid>
+      <description>Hello WorldHello World</description>
+    </item>
+  </channel>
+</rss>

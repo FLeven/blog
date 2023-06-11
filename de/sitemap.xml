@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/de/about/cv/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/about/cv/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/about/cv/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/about/cv/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/about/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/about/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/blog/2023/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/2023/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/blog/2023/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/blog/2023/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/blog/2022/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/2022/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/blog/2022/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/blog/2022/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/2023/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/2023/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/2023/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/2023/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/about/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/about/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/about/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/about/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/about/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/article/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/article/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/article/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/article/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/automation/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/automation/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/automation/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/automation/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/blog/2023/azure_devops_on_servercroe/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/2023/azure_devops_on_servercroe/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/blog/2023/azure_devops_on_servercroe/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/blog/2023/azure_devops_on_servercroe/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/blog/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/blog/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/blog/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/cv/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/cv/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/cv/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/cv/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/deployment/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/deployment/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/deployment/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/deployment/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/deployment/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/deployment/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/deployment/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/deployment/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/devops/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/devops/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/devops/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/devops/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/blog/2022/hellow/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/blog/2022/hellow/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/blog/2022/hellow/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/blog/2022/hellow/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/offtopic/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/offtopic/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/offtopic/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/offtopic/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/categories/offtopic/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/offtopic/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/offtopic/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/categories/offtopic/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/server-core/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/server-core/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/server-core/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/server-core/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/tags/transcript/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/transcript/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/transcript/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/tags/transcript/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/about/transcript/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/about/transcript/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/about/transcript/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="http://localhost:1313/de/about/transcript/index.html" />
+  </url>
+</urlset>

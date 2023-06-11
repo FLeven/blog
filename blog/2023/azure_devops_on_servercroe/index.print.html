@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.113.0">
+    <meta name="generator" content="Relearn 5.16.2+tip">
+    <meta name="description" content="A Blog">
+    <meta name="author" content="Felix Leven">
+    <title>Install Azure DevOps on Server Core - FL Blog</title>
+    <link href="http://localhost:1313/blog/2023/azure_devops_on_servercroe/index.html" rel="alternate" hreflang="x-default">
+    <link href="http://localhost:1313/blog/2023/azure_devops_on_servercroe/index.html" rel="alternate" hreflang="en">
+    <link href="http://localhost:1313/de/blog/2023/azure_devops_on_servercroe/index.html" rel="alternate" hreflang="de">
+    <link href="http://localhost:1313/blog/2023/azure_devops_on_servercroe/index.html" rel="canonical" type="text/html" title="Install Azure DevOps on Server Core - FL Blog">
+    <link href="/blog/2023/azure_devops_on_servercroe/index.xml" rel="alternate" type="application/rss+xml" title="Install Azure DevOps on Server Core - FL Blog">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1686503104" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1686503104" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1686503104" rel="stylesheet">
+    <link href="/css/auto-complete.css?1686503104" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1686503104" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1686503104" rel="stylesheet">
+    <link href="/css/fonts.css?1686503104" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1686503104" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1686503104" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1686503104" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1686503104" rel="stylesheet">
+    <link href="/css/print.css?1686503104" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1686503104" rel="stylesheet">
+    <link href="/css/ie.css?1686503104" rel="stylesheet">
+    <script src="/js/url.js?1686503104"></script>
+    <script src="/js/variant.js?1686503104"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/localhost:1313/';
+      window.variants && variants.init( [ 'relearn-light', 'relearn-dark', 'orange-dark', 'neon' ] );
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/blog/2023/azure_devops_on_servercroe/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span class="links">
+              Install Azure DevOps on Server Core
+            </span>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class="tags">
+  <a class="tag-link" href="/tags/automation/index.html">Automation</a>
+  <a class="tag-link" href="/tags/deployment/index.html">Deployment</a>
+  <a class="tag-link" href="/tags/devops/index.html">DevOps</a>
+  <a class="tag-link" href="/tags/server-core/index.html">Server Core</a>
+</div>
+            </header>
+<h1 id="install-azure-devops-on-server-core">Install Azure DevOps on Server Core</h1>
+
+<p>Since <strong>Azure DevOps Server 2022</strong> finally supports a deployment on Server Core, I can replace another GUI Server in my LAB. In this write up, I will show you all the steps to get it up and running in your environment.</p>
+<p>To have a quick peek at the service, you will get away with a 2 CPU, 4 GB memory, 15 GB hard drive VM (not using the <strong>Code Search</strong> feature). Later I eventually expanded the disk to 20 GB drive space, do be able to do OS updates. Also an additional 50 GB disk for projects, repo&rsquo;s and pipelines is recommended, if you want get serious with Azure DevOps Server.</p>
+<p>Download the Express Version ISO of Azure DevOps Server 2022, by choosing this version, you have a free license for up to 5 active users.</p>
+<p><strong>Quote</strong>, <a href="[https://learn.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops]">Download Azure Devops Server</a>
+Azure DevOps Server Express is free, simple to set up on both client and server operating systems, and supports all the same features as Azure DevOps Server. The only difference is that it is limited by licensing agreements to five or fewer active users.
+You can copy my code snippets and replace the <strong>my.. values</strong> with the information about your environment and we should be able to finish the install in 10 to 15 Minutes.</p>
+<p>Connect to a new Server 2022 VM and we can start with the setup and configuration.
+At First, I always take care about the IP address &ldquo;bug&rdquo; in <strong>sconfig</strong> (starts up by default since 2022 Server and is now a PowerShell, instead ob VB-script), that fails most of the time with an <strong>&ldquo;Failed to release DHCP lease&rdquo;</strong> error. Normally, we should have set the IP etc. by configuration management already and don&rsquo;t bother with manual changes of default settings in our LAB.</p>
+<p>For completeness of this article, I show you how I set up my IP and set a DNS-Server.
+Because the InterfaceIndex changes from VM to VM and we could have multiple NICs installed in our VM, I like to find out the InterfaceIndex first:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#40ffff">$IntIndex</span> = <span style="color:#24909d">Get-NetIPConfiguration</span> | % { <span style="color:#6ab825;font-weight:bold">Process</span> { <span style="color:#6ab825;font-weight:bold">If</span> ( <span style="color:#40ffff">$_</span>.IPv4DefaultGateway -ne $null -and <span style="color:#40ffff">$_</span>.NetAdapter.Status -ne <span style="color:#ed9d13">&#34;Disconnected&#34;</span>  ) { <span style="color:#40ffff">$_</span>.InterfaceIndex } }}
+</span></span></code></pre></div><p><strong>Explanation</strong>: I try to find a <strong>connected</strong> NIC that also has <strong>not set a gateway IP</strong> (that way, I exclude virtual switches etc.) and then I will configure this interface in the next step.
+Add your desired local IP, Gateway, and Prefix (24/255.255.255.0 in my example)</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#24909d">Set-NetIPAddress</span> -IPAddress` myLocalIP -InterfaceIndex <span style="color:#40ffff">$IntIndex</span> -PrefixLength <span style="color:#3677a9">24</span> -DefaultGateway MyGatewayIP
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">Set-DNSClientServerAddress</span> <span style="color:#a61717;background-color:#e3d2d2">–</span>interfaceIndex <span style="color:#40ffff">$IntIndex</span> <span style="color:#a61717;background-color:#e3d2d2">–</span>ServerAddresses (<span style="color:#ed9d13">&#34;MyFirstDNSIP&#34;</span>,<span style="color:#ed9d13">&#34;MySecondDNSIP&#34;</span>)
+</span></span></code></pre></div><p>Let&rsquo;s start the setup and mount the ISO to your VM, change your directory and run the installer:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>.\AzureDevOpsExpress2022.exe /Full /Q /S
+</span></span></code></pre></div><p>After the setup is done, we also should get a certificate from our local PKI to avoid the use of a self signed certificate:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#24909d">Get-Certificate</span> -Template yourPKITemplateName -SubjectName <span style="color:#ed9d13">&#39;cn=servername.local&#39;</span> -DnsName <span style="color:#ed9d13">&#39;servername&#39;</span>,<span style="color:#ed9d13">&#39;servername.local&#39;</span>,<span style="color:#ed9d13">&#39;serverIP&#39;</span>,<span style="color:#ed9d13">&#39;servicename&#39;</span>,<span style="color:#ed9d13">&#39;servicename.local&#39;</span> -CertStoreLocation Cert<span style="color:#a61717;background-color:#e3d2d2">:</span>\LocalMachine\My
+</span></span></code></pre></div><p>Our server is still not running, we need to open the Azure DevOps Server Administration Console first and start with the configuration of the database, web server etc.,</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>&amp; <span style="color:#ed9d13">&#39;C:\Program Files\Azure DevOps Server 2022\Tools\TfsMgmt.exe&#39;</span>
+</span></span></code></pre></div><p>I set the web service to HTTP first and after I have done the SSL Binding to the Website, I change it to HTTPS. To set the SSL Binding, use the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#999;font-style:italic">#get the ThumbPrint of the Certificate we created earlier</span>
+</span></span><span style="display:flex;"><span><span style="color:#40ffff">$cert</span> = <span style="color:#24909d">ls </span>Cert<span style="color:#a61717;background-color:#e3d2d2">:</span>\LocalMachine\My\ | <span style="color:#24909d">select </span>-Last <span style="color:#3677a9">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">#Bind it to the Devops Server site</span>
+</span></span><span style="display:flex;"><span><span style="color:#24909d">New-IISSiteBinding</span> -Name <span style="color:#ed9d13">&#34;Azure Devops Server&#34;</span> -BindingInformation <span style="color:#ed9d13">&#34;*:443:&#34;</span> -Protocol https -CertificateThumbPrint <span style="color:#40ffff">$cert</span>.Thumbprint -CertStoreLocation <span style="color:#ed9d13">&#34;Cert:\LocalMachine\My&#34;</span>
+</span></span></code></pre></div><p><strong>Notes:</strong>
+I sometimes got a very high CPU load on the server, caused by the .net optimization process, you can stop that:</p>
+<pre tabindex="0"><code class="language-**" data-lang="**">C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe executequeueditems
+</code></pre><p>That&rsquo;s it, setup some AD-Groups to give your users appropriate permissions to the DevOps server and give it a try. A German version of this how-to, will be published on my blog soon.</p>
+
+            <footer class="footline">
+              <i class='fas fa-list'></i>
+              <a class="tag-link" href="/categories/article/index.html">Article</a>
+               | <a class="tag-link" href="/categories/deployment/index.html">Deployment</a>
+               | <a class="tag-link" href="/categories/2023/index.html">2023</a>
+
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1686503104" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1686503104" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/d3/d3-color.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1686503104" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1686503104" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="/js/theme.js?1686503104" defer></script>
+  </body>
+</html>

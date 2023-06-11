@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on FL blog</title>
+    <link>http://localhost:1313/de/tags/index.html</link>
+    <description>Recent content in Tags on FL blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language><atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/de/tags/about/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/about/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/de/tags/automation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/automation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cv</title>
+      <link>http://localhost:1313/de/tags/cv/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/cv/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deployment</title>
+      <link>http://localhost:1313/de/tags/deployment/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/deployment/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:1313/de/tags/devops/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/devops/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>offtopic</title>
+      <link>http://localhost:1313/de/tags/offtopic/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/offtopic/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server Core</title>
+      <link>http://localhost:1313/de/tags/server-core/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/server-core/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>transcript</title>
+      <link>http://localhost:1313/de/tags/transcript/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/transcript/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

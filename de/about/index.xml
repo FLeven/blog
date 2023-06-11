@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Über FL on FL blog</title>
+    <link>http://localhost:1313/de/about/index.html</link>
+    <description>Recent content in Über FL on FL blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language><atom:link href="http://localhost:1313/de/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lebenslauf</title>
+      <link>http://localhost:1313/de/about/cv/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/about/cv/index.html</guid>
+      <description>Felix Leven Mail | Github | Xing
+Berufserfahrung seid 2000 TechnoCargo Logistik GmbH u. Co.KG - Senior Systems Engineer Microsoft &amp;amp; Citrix.
+2019-2021 TechnoCargo Logistik GmbH u. Co.KG - Teamleiter im Bereich Microsoft &amp;amp; Citrix.
+2015-2018 Leven IT-S Selbständig.
+Ausbildung 2000 Niederrheinische Industrie- und Handelskammer - IHK - Fachkraft für EDV Netzwerkbetreuung
+MS-Dos und Windows, Linux-Unix, Novell NetWare, Networking and ISDN
+1997-2000 TechnoCargo Logistik GmbH u. Co.KG - Ausbildung zum Speditionskaufmann (IHK)</description>
+    </item>
+    <item>
+      <title>Zertifizierungen</title>
+      <link>http://localhost:1313/de/about/transcript/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/about/transcript/index.html</guid>
+      <description>Microsoft - Übersicht aller Zertifikate Microsoft® Certified IT Professional (2002) MCP original print 2002 MCP online 2022 Microsoft® Certified Solutions Expert: Server Infrastructure (Charter Member) MCSE Charter Member Original MCSE Charter Member online 2022 Microsoft® Certified Solutions Expert: 2k MCSE 2k Original Microsoft Certified: Azure Data Fundamentals Microsoft 365 Certified: Teams Administrator Associate Teams 2022 30+ weitere in allen Themengebieten Messaging, Security, MSSql Microsoft Produkte sind weiterhin ein starker Eckpfeiler für alle die in der IT arbeiten möchten.</description>
+    </item>
+  </channel>
+</rss>

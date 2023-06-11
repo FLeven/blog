@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transcript on FL Blog</title>
+    <link>http://localhost:1313/tags/transcript/index.html</link>
+    <description>Recent content in transcript on FL Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/tags/transcript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/about/cv/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/cv/index.html</guid>
+      <description>Felix Leven Employment since 2000 TechnoCargo Logistik GmbH u. Co.KG - Senior Systems Engineer Microsoft &amp;amp; Citrix.
+2019 - 2021 TechnoCargo Logistik GmbH u. Co.KG - Team Leader Microsoft &amp;amp; Citrix.
+2015 - 2018 Leven IT-S self-employed.
+Education 2000 -2001 Niederrheinische Industrie- und Handelskammer - Network Supervisor (IHK)
+Topics: Windows, Linux, Novell Netware, Networking and ISDN
+1997 - 2000 TechnoCargo Logistik GmbH u. Co.KG - Training as a forwarding merchant (IHK)</description>
+    </item>
+    <item>
+      <title>Transcripts</title>
+      <link>http://localhost:1313/about/transcript/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/transcript/index.html</guid>
+      <description>Microsoft - Visit my transcript Microsoft® Certified IT Professional (2002) MCP original print 2002 MCP online 2022 Microsoft® Certified Solutions Expert: Server Infrastructure (Charter Member) MCSE Charter Member Original MCSE Charter Member online 2022 Microsoft® Certified Solutions Expert: 2k MCSE 2k Original Microsoft Certified: Azure Data Fundamentals Microsoft 365 Certified: Teams Administrator Associate Teams 2022 30+ more, Messaging, Security, MSSql Citrix Citrix® Certified Professional – Virtualization CCP-V 2017 Citrix® Certified Professional – Apps and Desktop CCP-V 2014 Citrix® Certified Administrator – Presentation Server 4 CCA-PS4 2009 Linux - Visit my transcript LFCA: Linux Foundation Certified IT Associate LFCA 2022 KCNA: Kubernetes and Cloud Native Associate KCNA 2022 Cisco (expired) Cisco CCNA (2011) CCNA 2011 Original Erste Prüfungen CCNP bestanden Apple (expired) Apple Certified Technical Coordinator 10.</description>
+    </item>
+  </channel>
+</rss>
