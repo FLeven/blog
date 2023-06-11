@@ -1,3 +1,0 @@
-# Powershell blog
-
-Windows & powershell
