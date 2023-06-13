@@ -50,7 +50,7 @@ __Realschule Rückertstrasse__ - Fachoberschulreife (US high school diploma with
 
 ### Languages
 
-* Fluent in Germadn and English
+* Fluent in German and English
 
 ### Hobbys
 

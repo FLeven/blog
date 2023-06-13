@@ -1,4 +1,4 @@
-baseURL = 'https://fleven.github.io/blog/'
+baseURL = 'https://fleven.github.io'
 languageCode = 'de-DE'
 title = 'Felix Leven'
 theme = "hugo-theme-relearn"

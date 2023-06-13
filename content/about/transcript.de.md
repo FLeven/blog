@@ -10,33 +10,33 @@ categories: ["about"]
 * Microsoft® Certified IT Professional (2002)
 
 {{% notice style="secondary" icon="eye" title="MCP original print 2002" %}}
-![MCP_2002_old](/blog/images/MCP_old.png?height=285px)
+![MCP_2002_old](images/MCP_old.png?height=285px)
 {{% /notice %}}
 {{% notice style="secondary" icon="eye" title="MCP online 2022" %}}
-![MCP_2002_new](/blog/images/MCP_new.png?height=250px)
+![MCP_2002_new](images/MCP_new.png?height=250px)
 {{% /notice %}}
 
 * Microsoft® Certified Solutions Expert: Server Infrastructure (Charter Member)
 
 {{% notice style="secondary" icon="eye" title="MCSE Charter Member Original" %}}
-![MCSE_2k_old](/blog/images/MCSE_2013_Charter.png?height=250px)
+![MCSE_2k_old](images/MCSE_2013_Charter.png?height=250px)
 {{% /notice %}}
 
 {{% notice style="secondary" icon="eye" title="MCSE Charter Member online 2022" %}}
-![MCSE_2k_old](/blog/images/MCSE_2013_Charter_online.png?height=250px)
+![MCSE_2k_old](images/MCSE_2013_Charter_online.png?height=250px)
 {{% /notice %}}
 
 * Microsoft® Certified Solutions Expert: 2k
 
 {{% notice style="secondary" icon="eye" title="MCSE 2k Original" %}}
-![MCSE_2k_old](/blog/images/MCSE_2k.png?height=250px)
+![MCSE_2k_old](images/MCSE_2k.png?height=250px)
 {{% /notice %}}
 
 * Microsoft Certified: Azure Data Fundamentals
 * Microsoft 365 Certified: Teams Administrator Associate
 
 {{% notice style="secondary" icon="eye" title="Teams 2022" %}}
-![MCSE_2k_old](/blog/images/Teams.png?height=250px)
+![MCSE_2k_old](images/Teams.png?height=250px)
 {{% /notice %}}
 
 * 30+ weitere in allen Themengebieten Messaging, Security, MSSql
@@ -48,19 +48,19 @@ categories: ["about"]
 * Citrix® Certified Professional – Virtualization
 
 {{% notice style="secondary" icon="eye" title="CCP-V 2017" %}}
-![CCP-V_2017](/blog/images/CCP-V_2017.png?height=250px)
+![CCP-V_2017](images/CCP-V_2017.png?height=250px)
 {{% /notice %}}
 
 * Citrix® Certified Professional – Apps and Desktop
 
 {{% notice style="secondary" icon="eye" title="CCP-V 2014" %}}
-![CCP-V_2014](/blog/images/CCP-V_2014.png?height=250px)
+![CCP-V_2014](images/CCP-V_2014.png?height=250px)
 {{% /notice %}}
 
 * Citrix® Certified Administrator – Presentation Server 4
 
 {{% notice style="secondary" icon="eye" title="CCA-PS4 2009" %}}
-![CCA-PS4_2009](/blog/images/CCA-PS4_2009.png?height=250px)
+![CCA-PS4_2009](images/CCA-PS4_2009.png?height=250px)
 {{% /notice %}}
 
 > Obwohl nicht mehr Zeitgemäß in der Umsetzung, sind Citrix Kenntnisse weiterhin eine sehr luktrative und tragfähige Kompoentene für die IT-Karriere.
@@ -71,13 +71,13 @@ categories: ["about"]
 * LFCA: Linux Foundation Certified IT Associate
 
 {{% notice style="secondary" icon="eye" title="LFCA 2022" %}}
-![LFCA](/blog/images/LFCA.png?height=250px)
+![LFCA](images/LFCA.png?height=250px)
 {{% /notice %}}
 
 * KCNA: Kubernetes and Cloud Native Associate
 
 {{% notice style="secondary" icon="eye" title="KCNA 2022" %}}
-![KCNA](/blog/images/KCNA.png?height=250px)
+![KCNA](images/KCNA.png?height=250px)
 {{% /notice %}}
 
 >Seit kurzem habe ich mich auch mit dem Linux OS und Kubernetes / Container ernsthafter beschäftig und konnte dort erste Erfolge verbuchen.
@@ -89,7 +89,7 @@ Linux hat mich zwar seit Debian 2.1 begleitet, konnte mein Interesse aber nie ga
 * Cisco CCNA (2011)
 
 {{% notice style="secondary" icon="eye" title="CCNA 2011 Original" %}}
-![CCNA](/blog/images/CCNA_2011.png?height=250px)
+![CCNA](images/CCNA_2011.png?height=250px)
 {{% /notice %}}
 
 * Erste Prüfungen CCNP bestanden (Routing und Switching)
@@ -102,13 +102,13 @@ Linux hat mich zwar seit Debian 2.1 begleitet, konnte mein Interesse aber nie ga
 * Apple Certified Technical Coordinator 10.5 (2009)
 
 {{% notice style="secondary" icon="eye" title="ACTC 2009" %}}
-![ACTC](/blog/images/ACTC_2009.png?height=250px)
+![ACTC](images/ACTC_2009.png?height=250px)
 {{% /notice %}}
 
 * Apple Certified Support Professional 10.5 (2009)
 
 {{% notice style="secondary" icon="eye" title="ACSP 2009" %}}
-![ACSP](/blog/images/ACSP_2009.png?height=250px)
+![ACSP](images/ACSP_2009.png?height=250px)
 {{% /notice %}}
 
 > Damals, als viele noch gehofft haben, Apple könnte und würde eine ernstzunehmende Alternative zur Microsoft Platform anstreben, habe ich relativ viel Zeit und Geld in den Ausbau meiner Apple Fähigkeiten investiert. Mein Fokus lag damlas auf dem Bereich kleinerer Client und Server Arbeitsgruppen mit Xstorage.
