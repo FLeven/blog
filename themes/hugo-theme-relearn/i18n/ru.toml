@@ -7,6 +7,9 @@ other = "Поиск"
 [Search-placeholder]
 other = "Поиск..."
 
+[Clear-search]
+other = "Очистить поиск"
+
 [No-results-found]
 other = "Ничего не найдено для \"{0}\""
 
@@ -15,6 +18,12 @@ other = "{1} результатов найдено для \"{0}\""
 
 [Clear-History]
 other = "Очистить историю"
+
+[Reset-view]
+other = "Вид на сброс"
+
+[View-reset]
+other = "Посмотреть сброс!"
 
 [Attachments-label]
 other = "Присоединенные файлы"
@@ -33,6 +42,9 @@ other = "редактировать"
 
 [Print-this-chapter]
 other = "Печать всей главы"
+
+[More-action]
+other = "Еще"
 
 [Shortcuts-Title]
 other = "Еще"

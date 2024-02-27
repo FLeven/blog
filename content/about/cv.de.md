@@ -72,6 +72,6 @@ __Realschule Rückertstrasse__ - Fachoberschulreife.
 
 ### Zertifizierung
 
-[Transcript]({{< ref "transcript" >}} "Transcript")
+[Transcript]({{% ref "transcript" %}} "Transcript")
 
 [1]: https://www.experts-exchange.com/articles/37818/Install-Azure-DevOps-Server-2022-on-Server-Core.html

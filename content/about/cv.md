@@ -60,7 +60,7 @@ __Realschule Rückertstrasse__ - Fachoberschulreife (US high school diploma with
 
 ### Certifications
 
-[Transcript]({{< ref "transcript" >}} "Transcript")
+[Transcript]({{% ref "transcript" %}} "Transcript")
 
 ### Publications:
 

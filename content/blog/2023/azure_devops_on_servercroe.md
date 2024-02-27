@@ -64,10 +64,11 @@ New-IISSiteBinding -Name "Azure Devops Server" -BindingInformation "*:443:" -Pro
 
 **Notes:**
 I sometimes got a very high CPU load on the server, caused by the .net optimization process, you can stop that:
-```**
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe executequeueditems
+
+```Powershell
+'C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe executequeueditems'
 ```
 
 That's it, setup some AD-Groups to give your users appropriate permissions to the DevOps server and give it a try. A German version of this how-to, will be published on my blog soon.
 
-[1]:[https://learn.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops]
+[1] [https://learn.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops]

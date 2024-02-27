@@ -7,6 +7,9 @@ other = "Rechercher"
 [Search-placeholder]
 other = "Rechercher..."
 
+[Clear-search]
+other = "Recherche claire"
+
 [No-results-found]
 other = "Aucun résultat trouvé pour \"{0}\""
 
@@ -15,6 +18,12 @@ other = "{1} résultats trouvés pour \"{0}\""
 
 [Clear-History]
 other = "Supprimer l'historique"
+
+[Reset-view]
+other = "Réinitialiser la vue"
+
+[View-reset]
+other = "Vue réinitialisée!"
 
 [Attachments-label]
 other = "Pièces jointes"
@@ -33,6 +42,9 @@ other = "Éditer"
 
 [Print-this-chapter]
 other = "Imprimer le chapitre entier"
+
+[More-action]
+other = "Aller plus loin"
 
 [Shortcuts-Title]
 other = "Aller plus loin"
