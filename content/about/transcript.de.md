@@ -5,6 +5,12 @@ tags: ["about", "cv", "transcript"]
 categories: ["about"]
 ---
 
+### Belkasoft
+
+{{% notice style="secondary" icon="eye" title="Belkasoft_Windows_Forensics" %}}
+![Belkasoft_Windows_Forensics.png](/images/Belkasoft_Windows_Forensics.png?height=285px)
+{{% /notice %}}
+
 ### Microsoft - [Übersicht aller Zertifikate](https://learn.microsoft.com/en-us/users/felixleven-3636/transcript/734gkak5jql5nk9)
 
 * Microsoft® Certified IT Professional (2002)

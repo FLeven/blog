@@ -4,6 +4,7 @@ title = 'Felix Leven'
 theme = "hugo-theme-relearn"
 
 [params]
+  disablePrintButton = false
   # This controls whether submenus will be expanded (true), or collapsed (false) in the
   # menu; if no setting is given, the first menu level is set to false, all others to true;
   # this can be overridden in the pages frontmatter
@@ -14,8 +15,6 @@ theme = "hugo-theme-relearn"
   editURL = ""
   # Author of the site, will be used in meta information
   author.name = "Felix Leven"
-  # Description of the site, will be used in meta information
-  description = "A Blog"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
@@ -45,14 +44,10 @@ theme = "hugo-theme-relearn"
   disableBreadcrumb = true
   # If set to true, hide table of contents menu in the header of all pages
   disableToc = false
-  # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
-  disableMathJax = false
   # Specifies the remote location of the MathJax js
   customMathJaxURL = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
   # Initialization parameter for MathJax, see MathJax documentation
   mathJaxInitialize = "{}"
-  # If set to false, load the Mermaid module on every page regardless if a Mermaid shortcode or Mermaid codefence is present
-  disableMermaid = false
   # Specifies the remote location of the Mermaid js
   customMermaidURL = "https://unpkg.com/mermaid/dist/mermaid.min.js"
   # Initialization parameter for Mermaid, see Mermaid documentation
@@ -68,8 +63,6 @@ theme = "hugo-theme-relearn"
   # Order sections in menu by "weight" or "title". Default to "weight";
   # this can be overridden in the pages frontmatter
   ordersectionsby = "weight"
-  # Change default color scheme with a variant one. Eg. can be "red", "blue", "green" or an array like [ "blue", "green" ].
-  themeVariant = [ "relearn-light", "relearn-dark", "orange-dark", "neon" ]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
   # If set to true, the menu in the sidebar will be displayed in a collapsible tree view. Although the functionality works with old browsers (IE11), the display of the expander icons is limited to modern browsers
@@ -79,21 +72,47 @@ theme = "hugo-theme-relearn"
   # If set to true, no index.html will be appended to prettyURLs; this will cause pages not
   # to be servable from the file system
   disableExplicitIndexURLs = false
+  
+  [[params.themeVariant]]
+    auto = ['relearn-light', 'orange-dark']
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
 
-  [markup]
-  [markup.highlight]
-    # if set to `guessSyntax = true`, there will be no unstyled code even if no language
-    # was given BUT mermaid code fences will not work anymore! So this is a mandatory
-    # setting for your site
-    guessSyntax = false
+[module]
+  [module.hugoVersion]
+    min = '0.126.3'
 
-    # choose a color theme or create your own
-    style = "native"
+[mediaTypes]
+  [mediaTypes.'text/javascript']
+    suffixes = ['js']
+
+[outputFormats]
+  [outputFormats.print]
+    name= 'print'
+    baseName = 'index.print'
+    isHTML = true
+    mediaType = 'text/html'
+    permalinkable = false
+    noUgly = true
+
+  [outputFormats.source]
+    name= 'source'
+    baseName = 'index.source'
+    isHTML = false
+    mediaType = 'text/markdown'
+    permalinkable = false
+    noUgly = true
 
 [outputs]
-  home = ["HTML", "RSS", "PRINT", "SEARCH"]
-  section = ["HTML", "RSS", "PRINT"]
-  page = ["HTML", "RSS", "PRINT"]
+  home = ["html", "rss", "print"]
+  section = ["html", "rss", "print"]
+  page = ["html", "rss", "print"]
+
+[params.relearn.dependencies]
+  [params.relearn.dependencies.math]
+    name = 'Math'
+  [params.relearn.dependencies.mermaid]
+    name = 'Mermaid'
 
 [languages]
   [languages.en]

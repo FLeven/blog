@@ -1,6 +1,6 @@
 ---
-title: "About FL"
-linkTitle: "About FL"
+title: "About me"
+linkTitle: "About me"
 alwaysopen: false
 draft: false
 weight: 2
