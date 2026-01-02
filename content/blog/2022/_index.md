@@ -6,4 +6,4 @@ draft: false
 alwaysopen: false
 ---
 
-{{%children containerstyle="div" style="h2" description="true" %}}
+{{%children type=list description="true" %}}

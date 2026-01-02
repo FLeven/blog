@@ -18,7 +18,7 @@ theme = "hugo-theme-relearn"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
-  disableSearch = false
+  search.disable=false
   # Disable search in hidden pages, otherwise they will be shown in search box
   disableSearchHiddenPages = true
   # Disables hidden pages from showing up in the sitemap and on Google (et all), otherwise they may be indexed by search engines
@@ -72,7 +72,14 @@ theme = "hugo-theme-relearn"
   # If set to true, no index.html will be appended to prettyURLs; this will cause pages not
   # to be servable from the file system
   disableExplicitIndexURLs = false
-  
+
+# specific variant parameter for this showcase; you have the choice
+# between many more predefined variants and even can configure your own;
+# see the themes documentation
+
+  [[params.themeVariant]]
+    identifier = 'orange-dark'
+    
   [[params.themeVariant]]
     auto = ['relearn-light', 'orange-dark']
     identifier = 'relearn-auto'
@@ -113,14 +120,20 @@ theme = "hugo-theme-relearn"
     name = 'Math'
   [params.relearn.dependencies.mermaid]
     name = 'Mermaid'
+  [params.relearn.dependencies.openapi]
+    name = 'OpenApi'
+  [params.relearn.dependencies.search]
+    name = 'Search'
+  [params.relearn.dependencies.theme]
+    name = 'Theme'
 
 [languages]
   [languages.en]
-    title = "FL Blog"
+    title = "<i class='fas fa-home'></i> FL Blog"
     weight = 1
     languageName = "English"
     [languages.en.params]
-      landingPageName = "<i class='fas fa-home'></i> Home"
+      landingPageName = "Home"
 
   [[languages.en.menu.shortcuts]]
     name = "<i class='fab fa-fw fa-github'></i> GitHub repo"

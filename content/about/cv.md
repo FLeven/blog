@@ -13,6 +13,9 @@ weight: 1
 `since 2000`
 __TechnoCargo Logistik GmbH u. Co.KG__ - Senior Systems Engineer Microsoft & Citrix.
 
+`since 2024`
+__TechnoCargo Logistik GmbH u. Co.KG__ - Cybersecurity-Beauftragter-Officer
+
 `2019 - 2021`
 __TechnoCargo Logistik GmbH u. Co.KG__ - Team Leader Microsoft & Citrix.
 
@@ -33,13 +36,16 @@ __Realschule Rückertstrasse__ - Fachoberschulreife (US high school diploma with
 
 ### Areas of expertise
 
-* Microsoft (Infrastruktur, MS-SQL, Exchange)
+* Microsoft (Infrastruktur, MS-SQL)
 * Citrix virtual Apps and Desktops
 * Automation and Deployment (Powershell, DSC, Chocolatey, MDT)
 * Windows Container (Windows DockerEE, Mirantis, Compose)
 * Chocolatey C4B
 * FSlogix
 * Prometheus - Grafana - Windows/BlackBox/SNMP-Monitoring
+* MS Exchange 5.5 - 2010 - OnPrem
+* Pentester (Novice)
+* CEH, DSGVO, IT-Securityofficer (Novice)
 * DevOps Windows (GiTea, Jenkins, Nexus)
 * Hyper-V,vSphere,Proxmox (Novice)
 * Linux (Novice)
@@ -54,9 +60,9 @@ __Realschule Rückertstrasse__ - Fachoberschulreife (US high school diploma with
 
 ### Hobbys
 
-* USA
 * Cycling
 * Running
+* Retrogaming / Computing
 
 ### Certifications
 

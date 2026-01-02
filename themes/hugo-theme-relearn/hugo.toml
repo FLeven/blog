@@ -1,6 +1,6 @@
 [module]
   [module.hugoVersion]
-    min = '0.126.3'
+    min = '0.141.0'
 
 [mediaTypes]
   [mediaTypes.'text/javascript']
@@ -48,3 +48,20 @@
     name = 'Mermaid'
   [params.relearn.dependencies.openapi]
     name = 'OpenApi'
+  [params.relearn.dependencies.search]
+    name = 'Search'
+  [params.relearn.dependencies.theme]
+    name = 'Theme'
+
+# specific variant parameter for this showcase; you have the choice
+# between many more predefined variants and even can configure your own;
+# see the themes documentation
+[[themeVariant]]
+  identifier = 'neon'
+  name = 'Dark'
+[[themeVariant]]
+  identifier = 'learn'
+  name = 'Light'
+[[themeVariant]]
+  identifier = 'Orange'
+  name = 'Orange'

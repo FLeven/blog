@@ -4,6 +4,17 @@ linkTitle: "Transcripts"
 tags: ["about", "cv", "transcript"]
 categories: ["about"]
 ---
+### Ethical Hacker
+
+{{% notice style="secondary" icon="eye" title="Certified Ethical Hacker 2025" %}}
+![Certified Ethical Hacker 2025](/images/CEH-Certified.jpg)
+{{% /notice %}}
+
+### TüV Rheinland
+
+{{% notice style="secondary" icon="eye" title="IT-Security-Officer 2025" %}}
+![IT-Security-Officer 2025](/images/Tuev-Cert-small.png)
+{{% /notice %}}
 
 ### Belkasoft
 

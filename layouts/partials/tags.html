@@ -7,7 +7,7 @@
     {{- $tag := . }}
     {{- with $page.Site.GetPage (printf "%s%s" ("/tags/" | relURL ) ( $tag | anchorize ) ) }}
       {{- $to := . }}
-  <a class="tag-link" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" $to) }}">{{ $tag }}</a>
+  <a class="tag-link" href="{{ partial "permalink.gotmpl" (dict "to" $to) }}">{{ $tag }}</a>
     {{- end }}
   {{- end }}
 </div>

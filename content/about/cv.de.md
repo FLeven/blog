@@ -18,6 +18,9 @@ weight: 1
 {{% badge %}}seid 2000{{% /badge %}}
 __TechnoCargo Logistik GmbH u. Co.KG__ - Senior Systems Engineer Microsoft & Citrix.
 
+{{% badge %}}seid 2024{{% /badge %}}
+__TechnoCargo Logistik GmbH u. Co.KG__ - Cybersecurity-Beauftragter
+
  {{% badge %}}2019-2021{{% /badge %}}
 __TechnoCargo Logistik GmbH u. Co.KG__ - Teamleiter im Bereich Microsoft & Citrix.
 
@@ -40,13 +43,16 @@ __Realschule Rückertstrasse__ - Fachoberschulreife.
 
 ### Kenntnisse und Interessen
 
-* Microsoft (Infrastruktur, MS-SQL, Exchange)
+* Microsoft (Infrastruktur, MS-SQL)
 * Citrix virtual Apps and Desktops
 * Automation and Deployment (Powershell, DSC, Chocolatey, MDT)
 * Windows Container (Windows DockerEE, Mirantis, Compose)
 * Chocolatey C4B
 * FSlogix
 * Prometheus - Grafana - Windows/BlackBox/SNMP-Monitoring
+* MS Exchange 5.5 - 2010 - OnPrem
+* Pentester (Novice)
+* CEH, DSGVO, IT-Sicherheitsbeauftragter (Novice)
 * DevOps Windows (GiTea, Jenkins, Nexus)
 * Hyper-V,vSphere,Proxmox (Novice)
 * Linux (Novice)
@@ -62,7 +68,7 @@ __Realschule Rückertstrasse__ - Fachoberschulreife.
 
 ### Hobbys
 
-* USA
+* Retrogaming / Computing
 * Radfahren
 * Joggen
 

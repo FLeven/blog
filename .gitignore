@@ -1,5 +1,8 @@
-.DS_Store
-.hugo_build.lock
 public/
-**/*.xcf
-**/*.zip
+.hvm
+.DS_Store
+.githooks/hooks.log
+.hugo_build.lock
+**/node_modules
+*.xcf
+*.zip

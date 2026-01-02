@@ -6,4 +6,4 @@ draft: false
 weight: 1
 ---
 
-{{%children containerstyle="div" style="h2" description="false" %}}
+{{%children type=card description="false" %}}
